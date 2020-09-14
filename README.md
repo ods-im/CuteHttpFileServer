@@ -21,7 +21,7 @@ CuteHttpFileServer/chfs是一个免费的、HTTP协议的文件共享服务器�
 <h3 class="section">下载</h3>
 <div style="margin: 0px 0px 0px 20px">
     <h4 class="subsection">命令行程序</h4>
-	
+	<ul>
 	    <li><a href="tar/chfs/2.0/chfs-changelog.txt" target="_blank">chfs-changelog.txt</a></li>
 	
 	    <li><a href="tar/chfs/2.0/chfs-linux-386-2.0.zip" target="_blank">chfs-linux-386-2.0.zip</a></li>
@@ -53,13 +53,13 @@ CuteHttpFileServer/chfs是一个免费的、HTTP协议的文件共享服务器�
 	    <li><a href="tar/chfs/2.0/chfs-windows-x86-2.0.zip" target="_blank">chfs-windows-x86-2.0.zip</a></li>
 	
 	    <li><a href="tar/chfs/2.0/chfs-支持低版本操作系统(MS XP,OpenBSD 6.0...).zip" target="_blank">chfs-支持低版本操作系统(MS XP,OpenBSD 6.0...).zip</a></li>
-	
+	</ul>
 </div>
 <div style="margin: 0px 0px 0px 20px">
     <h4 class="subsection">GUI程序</h4>
-	
+	<ul>
 	    <li><a href="tar/chfs/2.0/gui-chfs-windows.zip" target="_blank">gui-chfs-windows.zip</a></li>
-	
+	</ul>
 </div>
 
 
@@ -70,13 +70,12 @@ CuteHttpFileServer/chfs是一个免费的、HTTP协议的文件共享服务器�
     <p>该程序是一个控制台程序，可直接双击运行，或在控制台/命令行中运行。可通过命令行参数进行相关配置，如使用'chfs --help'来查看帮助：</p>
 
     <pre style="background: black; color: white">usage: chfs.exe [<flags>]
-
-Flags:
-  --help              Show context-sensitive help (also try --help-long and
-                      --help-man).
-  --path=DIRECTORIES  Directories where store shared files, separated by '|'.
-  --port=PORT         HTTP listening port(Default is 80).
-  --allow=LIST        Allowed IPv4 addresses(Allow any address by default).
+<ul>
+<li>Flags:</li>
+  <li>--help              Show context-sensitive help (also try --help-long and --help-man).</li>
+  <li>--path=DIRECTORIES  Directories where store shared files, separated by '|'.</li>
+  <li>--port=PORT         HTTP listening port(Default is 80).</li>
+ <li> --allow=LIST        Allowed IPv4 addresses(Allow any address by default).</li>
                       
                       White list mode: "listitem1[,listitem2,...]" e.g.
                       "192.168.1.2-192.168.1.10,192.169.1.222" allows this 10
@@ -85,7 +84,7 @@ Flags:
                       Black list mode: "not(listitem1[,listitem2,...])" e.g.
                       "not(192.168.1.2-192.168.1.10,192.169.1.222)" bans this 10
                       addresses!
-  --rule=LIST         Access rules(anybody can access any thing by default).
+  <li>--rule=LIST         Access rules(anybody can access any thing by default).</li>
                       
                       List defines like:"USER:PWD:MASK[:DIR:MASK...][|...]":
                       
@@ -100,27 +99,21 @@ Flags:
                       
                       For instance: "::|root:123456:rw" bans guest, and defines
                       a account 'root' can do anything
-  --log=DIRECTORY     Log directory. Empty value will disable log.
-  --file=FILE         A configuration file which overwrites & enhence the
-                      settings.
-  --version           Show application version.</pre>
-
+  <li>--log=DIRECTORY     Log directory. Empty value will disable log.</li>
+ <li> --file=FILE         A configuration file which overwrites & enhence the settings.</li>
+ <li> --version           Show application version.</pre></li>
+</ul>
     <br>
     <p>参数说明：
-		<table border="1">
-		<tr><td><strong>help:</strong></td><td>显示帮助信息</td></tr>
-        <tr><td><strong>path:</strong></td><td>你要共享的目录，默认为程序运行目录。如果需要共享多个目录，则用“|”符号隔开。<strong>注意：如果路径带有空格，则需要将整个路径用引号包住。</strong></td></tr>
-        <tr><td><strong>port:</strong></td><td>程序使用的端口号，默认为80</td></tr>
-		<tr>
-			<td><strong>allow:</strong></td>
-			<td>IP地址过滤，可使用白名单模式或黑名单模式</td>
-		</tr>
-		<tr>
-			<td><strong>rule:</strong></td>
-			<td>账户及访问权限，允许一个账户多点登陆，默认情况下匿名用户具有读写权限，其语法为：<br><br>
-   <strong>RULEITEM1[|RULEITEM2|RULEITEM3...]</strong><br><br>
-	每个RULEITEM代表一个账户信息及其访问权限，多个RULEITEM则用'|'进行分割，RULEITEM的语法为：<br><br>
-	<strong>USER:PWD:MASK[:DIR:MASK...]</strong><br><br>
+
+help:显示帮助信息
+path:你要共享的目录，默认为程序运</strong>行目录。如果需要共享多个目录，则用“|”符号隔开。<strong>注意：如果路径带有空格，则需要将整个路径用引号包住。
+port:程序使用的端口号，默认为80
+allow:IP地址过滤，可使用白名单模式或黑名单模式
+rule:账户及访问权限，允许一个账户多点登陆，默认情况下匿名用户具有读写权限，其语法为：
+   <strong>RULEITEM1[|RULEITEM2|RULEITEM3...]</strong>
+	每个RULEITEM代表一个账户信息及其访问权限，多个RULEITEM则用'|'进行分割，RULEITEM的语法为：
+	<strong>USER:PWD:MASK[:DIR:MASK...]</strong>
 	每个项由“:”来分隔，前三个项是必须的，分别对应：账户名、账户密码、共享目录根目录的访问权限。后面的可选的项，必须成对出现，用来设定根目录下面的子级目录的访问权限。一些规定：<br><br>
 	*  对于匿名用户，前两个项都为空<br>
 	*  访问权限分为四种：""(不可访问)，"R"(只读)，"W"(读写)，"D"(写+删除)。读权限指的是下载，写权限指上传、新建等操作，删除权限是在写权限的基础上加上删除权限。<br>
@@ -133,9 +126,9 @@ Flags:
 		</table>
     </p>
 
-    <br>
+
     <p>几个例子：</p>
-    <pre style="background: black; color: white">//都使用默认参数，共享目录为程序运行目录，监听端口号为80
+//都使用默认参数，共享目录为程序运行目录，监听端口号为80
 chfs
 
 //共享目录为D盘，监听端口号为8080
@@ -161,7 +154,7 @@ chfs --rule="::r|ceshizu:ceshizu123:r:test:rw|yanfazu:yanfazu123:r:yanfa:rw"
 chfs --rule="::|admin:admin123:rw|zhangsan:zhangsan123::zhangsanfiles:rw"
 
 //通过配置文件进行配置，该文件可以不存在，待以后需要更改配置时使用
-chfs --file="d:\chfs\chfs.ini"</pre>
+chfs --file="d:\chfs\chfs.ini"
 
 	<br>
 	<p>Tips 1：在Windows系统中，可以使用右键弹出菜单快捷地共享某个目录。步骤如下：</p>
