@@ -22,9 +22,8 @@ CuteHttpFileServer/chfs是一个免费的、HTTP协议的文件共享服务器�
 <div style="margin: 0px 0px 0px 20px">
     <h4 class="subsection">命令行程序</h4>
 	<ul>
-	    <a href="http://iscute.cn/tar/chfs/2.0/chfs-changelog.txt" target="_blank">chfs-changelog.txt</a>
-	
-	    <a href="http://iscute.cn/tar/chfs/2.0/chfs-linux-386-2.0.zip" target="_blank">chfs-linux-386-2.0.zip</a>
+	    [chfs-changelog.txt](http://iscute.cn/tar/chfs/2.0/chfs-changelog.txt)
+	    [chfs-linux-386-2.0.zip](http://iscute.cn/tar/chfs/2.0/chfs-linux-386-2.0.zip)
 	
 	    <a href="http://iscute.cn/tar/chfs/2.0/chfs-linux-amd64-2.0.zip" target="_blank">chfs-linux-amd64-2.0.zip</a>
 	
