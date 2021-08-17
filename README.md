@@ -177,10 +177,10 @@ Tips 2：另外，有几个功能需要通过配置文件中进行配置，其�
 配置文件中有ssl.cert和ssl.key两个键值，设置好对应的文件目录即可。另外，chfs支持的最低SSL版本为SSLv3，不兼容SSL2的握手。对了，别忘了将监听端口设置为443
 
 #### 我想自己搞一套页面，请问开发文档在哪里？
-运行chfs后，通过地址:http://host:port/asset/api.html访问API文档。
+运行chfs后，通过地址:[http://host:port/asset/api.html](http://host:port/asset/api.html)访问API文档。
 
 #### 如何启用webdav？
-程序默认支持webdav，跟http共用同一套访问规则。其地址为：http://host:port/webdav
+程序默认支持webdav，跟http共用同一套访问规则。其地址为：[http://host:port/webdav](http://host:port/webdav)
 
 
 ## 测试说明
