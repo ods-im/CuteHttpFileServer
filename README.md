@@ -18,40 +18,40 @@ CuteHttpFileServer/chfs是一个免费的、HTTP协议的文件共享服务器�
 
 ## 下载
 #### 命令行程序
-	[版本更新日志](http://iscute.cn/tar/chfs/2.0/chfs-changelog.txt)
-	
-	    chfs-linux-386-2.0.zip](http://iscute.cn/tar/chfs/2.0/chfs-linux-386-2.0.zip) 
-	
-	    chfs-linux-amd64-2.0.zip](http://iscute.cn/tar/chfs/2.0/chfs-linux-amd64-2.0.zip) 
-	
-	    chfs-linux-arm-2.0.zip](http://iscute.cn/tar/chfs/2.0/chfs-linux-arm-2.0.zip)
-	
-	    chfs-linux-arm64-2.0.zip](http://iscute.cn/tar/chfs/2.0/chfs-linux-arm64-2.0.zip) 
-	
-	    chfs-linux-mips-2.0.zip ](http://iscute.cn/tar/chfs/2.0/chfs-linux-mips-2.0.zip)
-	
-	    chfs-linux-mips-softfloat-2.0.zip](http://iscute.cn/tar/chfs/2.0/chfs-linux-mips-softfloat-2.0.zip) 
-	
-	    ](http://iscute.cn/tar/chfs/2.0/chfs-linux-mips64-2.0.zip)chfs-linux-mips64-2.0.zip 
-	
-	    ](http://iscute.cn/tar/chfs/2.0/chfs-linux-mips64-softfloat-2.0.zip)chfs-linux-mips64-softfloat-2.0.zip 
-	
-	   ](http://iscute.cn/tar/chfs/2.0/chfs-linux-mips64le-2.0.zip)chfs-linux-mips64le-2.0.zip 
-	
-	   ](http://iscute.cn/tar/chfs/2.0/chfs-linux-mipsle-2.0.zip)chfs-linux-mipsle-2.0.zip 
-	
-	    ](http://iscute.cn/tar/chfs/2.0/chfs-mac-386-2.0.zip)chfs-mac-386-2.0.zip 
-	
-	   ](http://iscute.cn/tar/chfs/2.0/chfs-mac-amd64-2.0.zip)chfs-mac-amd64-2.0.zip 
-	
-	   ](http://iscute.cn/tar/chfs/2.0/chfs-windows-x64-2.0.zip)chfs-windows-x64-2.0.zip 
-	
-	    ](http://iscute.cn/tar/chfs/2.0/chfs-windows-x86-2.0.zip)chfs-windows-x86-2.0.zip 
-	
-	 [chfs-支持低版本操作系统(MS XP,OpenBSD 6.0...).zip](http://iscute.cn/tar/chfs/2.0/chfs-支持低版本操作系统(MS XP,OpenBSD 6.0...).zip) 
+[版本更新日志](http://iscute.cn/tar/chfs/2.0/chfs-changelog.txt)
+
+[chfs-linux-386-2.0.zip](http://iscute.cn/tar/chfs/2.0/chfs-linux-386-2.0.zip) 
+
+[chfs-linux-amd64-2.0.zip](http://iscute.cn/tar/chfs/2.0/chfs-linux-amd64-2.0.zip) 
+
+[chfs-linux-arm-2.0.zip](http://iscute.cn/tar/chfs/2.0/chfs-linux-arm-2.0.zip)
+
+[chfs-linux-arm64-2.0.zip](http://iscute.cn/tar/chfs/2.0/chfs-linux-arm64-2.0.zip) 
+
+[chfs-linux-mips-2.0.zip](http://iscute.cn/tar/chfs/2.0/chfs-linux-mips-2.0.zip)
+
+[chfs-linux-mips-softfloat-2.0.zip](http://iscute.cn/tar/chfs/2.0/chfs-linux-mips-softfloat-2.0.zip) 
+
+[chfs-linux-mips64-2.0.zip](http://iscute.cn/tar/chfs/2.0/chfs-linux-mips64-2.0.zip) 
+
+[chfs-linux-mips64-softfloat-2.0.zip](http://iscute.cn/tar/chfs/2.0/chfs-linux-mips64-softfloat-2.0.zip) 
+
+[chfs-linux-mips64le-2.0.zip](http://iscute.cn/tar/chfs/2.0/chfs-linux-mips64le-2.0.zip) 
+
+[chfs-linux-mipsle-2.0.zip](http://iscute.cn/tar/chfs/2.0/chfs-linux-mipsle-2.0.zip) 
+
+[chfs-mac-386-2.0.zip](http://iscute.cn/tar/chfs/2.0/chfs-mac-386-2.0.zip) 
+
+[chfs-mac-amd64-2.0.zip](http://iscute.cn/tar/chfs/2.0/chfs-mac-amd64-2.0.zip)
+
+[chfs-windows-x64-2.0.zip](http://iscute.cn/tar/chfs/2.0/chfs-windows-x64-2.0.zip)
+
+[chfs-windows-x86-2.0.zip](http://iscute.cn/tar/chfs/2.0/chfs-windows-x86-2.0.zip)
+
+[chfs-支持低版本操作系统(MS XP,OpenBSD 6.0...).zip](http://iscute.cn/tar/chfs/2.0/chfs-支持低版本操作系统(MS，XP,OpenBSD6.0...).zip) 
 
 #### GUI程序
-    [gui-chfs-windows.zip ](http://iscute.cn/tar/chfs/2.0/gui-chfs-windows.zip) 
+[gui-chfs-windows.zip](http://iscute.cn/tar/chfs/2.0/gui-chfs-windows.zip) 
 # 基本用法
 #### 非系统服务运行
 该程序是一个控制台程序，可直接双击运行，或在控制台/命令行中运行。可通过命令行参数进行相关配置，如使用'chfs --help'来查看帮助：
